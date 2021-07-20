@@ -1,0 +1,203 @@
+body
+{
+    background-color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainwraper
+{
+    width: 50%;
+    margin: 60px auto;
+    padding: 20px;
+    padding-bottom: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    background-color: #0D0F12;
+    color: aliceblue;
+}
+.mainwraper h1
+{
+    margin: 20px 0px;
+    color: #E95771;
+}
+.inputs
+{
+    width: 80%;
+    margin: auto;
+}
+.inputs>label
+{
+    float: left;
+    margin-bottom: 3px;
+}
+#username, #password, #confirmpass, #email
+{
+    margin: 10px auto;
+    width: 100%;
+    height: 40px;
+    background-color: #0d0f12;
+    border: 1px solid hsla(0,0%,100%,.7);
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+}
+input
+{
+    color: aliceblue;
+}
+.mainwraper>label
+{
+    position: relative;
+    left: -215px;
+    top: 5px;
+    font-weight: bold;
+}
+/* buttons style */
+#ok, #cancel
+{
+    height: 40px;
+    width: 38%;
+    border: none;
+    font-weight: bold;
+    font-size:110%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+#ok
+{
+    background-color: #2C85BD;
+    margin-right: 22px;
+}
+#ok:hover
+{
+    background-color: #4896c7;
+}
+#cancel
+{
+    background-color: #E95A83;
+}
+#cancel:hover
+{
+    background-color:  #e77294 ;
+}
+button
+{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    background-color: #333840;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 110%;
+    border:none;
+    transition: 1s;
+}
+button:hover
+{
+    background-color: #3f4349;
+}
+#ok, #cancel, button
+{
+    cursor: pointer;
+}
+#or
+{
+    width: 20px;
+    height: 20px;
+    background-color: #0D0F12;
+    color: #F4A619;
+    font-weight: bold;
+    margin: 15px auto;
+    margin-bottom: 0px;
+}
+/* end of buttons style */
+
+/* gender wraper style */
+.genderwraper label:first-child
+{
+    color: #F4A619;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.genderwraper
+{
+    text-align: left;
+    /* height: 60px; */
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: .5rem;
+}
+.genderwraper label:nth-last-of-type(2)
+{
+    color: #3F8EC0;
+    font-weight: bold;
+    margin-right: 9px;
+}
+.genderwraper label:nth-of-type(3)
+{
+    color: #E95771; 
+}
+.imageUpload{
+    margin-bottom: .75rem;
+   text-align: left;
+}
+.imageUpload label
+{
+    color: #fff !important;
+}
+/* end of gender  */
+/*  messages */
+.error
+{
+    color: red;
+    float: right;
+    margin-bottom: 5px;
+}
+.gendererror
+{
+    position: relative;
+    bottom: 17px;
+}
+.mainErrormessage, .successMessage
+{
+    width: 100%;
+    height: 35px;
+    background-color: #D4471F;
+    position: fixed;
+    top: 0;
+    color: seashell;
+    text-align: center;
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.successMessage
+{
+    background-color: green;
+}
+.passwordErrorMessage{
+    color: #fff;
+}
+/* end of messages */
+#already a
+{
+    color:#ee3e5e;
+    text-decoration: none;
+}
+#already a:hover
+{
+    text-decoration: underline;
+}
+#already
+{
+    /* margin-top: 10px; */
+    color: #fff;
+}
